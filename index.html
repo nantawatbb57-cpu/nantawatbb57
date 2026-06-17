@@ -135,37 +135,64 @@
     <!-- พื้นที่เนื้อหาหลัก (Main Content) -->
     <main class="flex-grow max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-24">
 
-        <!-- ส่วนเกี่ยวกับตัวเอง (About) -->
-        <section id="about" class="scroll-mt-24">
-            <div class="max-w-3xl mx-auto bg-white dark:bg-slate-800/50 backdrop-blur-sm p-8 md:p-12 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-xl shadow-slate-200/50 dark:shadow-none">
-                <div class="flex items-center gap-3 mb-6">
-                    <div class="w-8 h-8 rounded-lg bg-primary-500/10 flex items-center justify-center text-primary-500">
-                        <i class="fas fa-basketball-ball"></i>
-                    </div>
-                    <h2 class="text-2xl md:text-3xl font-bold">เกี่ยวกับฉัน</h2>
-                </div>
-                <!-- คำอธิบายด้านกีฬาบาสเกตบอล -->
-                <p class="text-lg leading-relaxed text-slate-600 dark:text-slate-300">
-                    ข้าพเจ้า "ครูหนุ่ม" สอนคอมพิวเตอร์ โรงเรียนบ้านบึง"อุตสาหกรรมนุเคราะห์" ต.บ้านบึง อ.บ้านบึง จ.ชลบุรี เป็นครูชำนาญการพิเศษ สอนระดับชั้น มัธยมศึกษาปีที่ 6
-                </p>
-                
-                <!-- ข้อมูลเพิ่มเติมของนักกีฬา -->
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mt-8 pt-8 border-t border-slate-100 dark:border-slate-800">
-                    <div>
-                        <p class="text-sm text-slate-400 dark:text-slate-500">ตำแหน่ง</p>
-                        <p class="font-semibold text-slate-700 dark:text-slate-200">ครู / ชำนาญการพิเศษ </p>
-                    </div>
-                    <div>
-                        <p class="text-sm text-slate-400 dark:text-slate-500">สังกัด</p>
-                        <p class="font-semibold text-slate-700 dark:text-slate-200">สำนักงานเขตพื้นที่การศึกษามัธยมศึกษาชลบุรี - ระยอง</p>
-                    </div>
-                    <div class="col-span-2 md:col-span-1">
-                        <p class="text-sm text-slate-400 dark:text-slate-500">คติประจำใจในการทำงาน</p>
-                        <p class="font-semibold text-slate-700 dark:text-slate-200">"ตั้งใจทำ ทำให้ดีที่สุด อย่าหยุดพัฒนา"</p>
+       <section id="about" class="scroll-mt-24">
+    <div class="max-w-4xl mx-auto bg-white dark:bg-slate-800/40 backdrop-blur-md p-8 md:p-12 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-xl shadow-slate-200/40 dark:shadow-none transition-all duration-300">
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+            
+            <div class="flex flex-col items-center text-center">
+                <div class="relative group">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-blue-600 to-indigo-500 rounded-2xl blur-xl opacity-40 group-hover:opacity-60 transition-opacity duration-300"></div>
+                    <div class="relative w-32 h-32 md:w-40 md:h-40 bg-slate-100 dark:bg-slate-900 border-4 border-white dark:border-slate-800 rounded-2xl flex items-center justify-center overflow-hidden shadow-md">
+                        <i class="fas fa-soccer-ball text-5xl md:text-6xl text-slate-700 dark:text-slate-300 animate-pulse"></i>
                     </div>
                 </div>
+                <h3 class="text-xl font-bold mt-4 text-slate-800 dark:text-white">ครูหนุ่ม</h3>
+                <p class="text-sm text-blue-500 font-medium">Computer & Technology</p>
             </div>
-        </section>
+
+            <div class="md:col-span-2 space-y-6">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-500">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h2 class="text-2xl md:text-3xl font-bold text-slate-800 dark:text-white">ข้อมูลส่วนตัว</h2>
+                </div>
+
+                <p class="text-base md:text-lg leading-relaxed text-slate-600 dark:text-slate-300">
+                    ข้าพเจ้า <span class="font-semibold text-slate-800 dark:text-white">"ครูหนุ่ม"</span> ปัจจุบันดำรงตำแหน่งครู วิทยฐานะ <span class="text-blue-500 font-medium">ชำนาญการพิเศษ</span> รับผิดชอบการจัดการเรียนการสอนในกลุ่มสาระการเรียนรู้วิทยาศาสตร์และเทคโนโลยี มุ่งเน้นการพัฒนาทักษะด้านดิจิทัลและการคิดเชิงคำนวณให้แก่ผู้เรียนเพื่อก้าวทันยุคปัจจุบัน
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-slate-100 dark:border-slate-800">
+                    <div class="flex items-start gap-3 p-3 rounded-xl bg-slate-50 dark:bg-slate-900/50">
+                        <div class="text-blue-500 mt-1"><i class="fas fa-school text-lg"></i></div>
+                        <div>
+                            <p class="text-xs text-slate-400 dark:text-slate-500">สถานศึกษา</p>
+                            <p class="text-sm font-semibold text-slate-700 dark:text-slate-200">โรงเรียนบ้านบึง "อุตสาหกรรมนุเคราะห์"</p>
+                            <p class="text-xs text-slate-500">อ.บ้านบึง จ.ชลบุรี</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 p-3 rounded-xl bg-slate-50 dark:bg-slate-900/50">
+                        <div class="text-indigo-500 mt-1"><i class="fas fa-graduation-cap text-lg"></i></div>
+                        <div>
+                            <p class="text-xs text-slate-400 dark:text-slate-500">ระดับชั้นที่สอน</p>
+                            <p class="text-sm font-semibold text-slate-700 dark:text-slate-200">มัธยมศึกษาปีที่ 6</p>
+                            <p class="text-xs text-slate-500">สพม.ชลบุรี - ระยอง</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 rounded-xl bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-slate-900/40 dark:to-slate-900/20 border border-blue-100/50 dark:border-slate-800">
+                    <p class="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-1">คติประจำใจในการทำงาน</p>
+                    <p class="text-base italic font-medium text-slate-700 dark:text-slate-300">"ตั้งใจทำ ทำให้ดีที่สุด อย่าหยุดพัฒนา"</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <section id="projects" class="py-20 bg-slate-50/50 dark:bg-slate-900/50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
